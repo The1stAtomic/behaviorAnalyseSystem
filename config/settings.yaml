@@ -1,0 +1,19 @@
+camera:
+  index: 0
+
+video:
+  frame_sample_rate: 5
+
+detection:
+  model: yolov8n.pt
+  person_class_id: 0
+
+tracking:
+  persist: true
+
+fusion:
+  iou_threshold: 0.3
+
+debug:
+  show_window: true
+  exit_key: 27
